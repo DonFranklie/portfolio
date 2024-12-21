@@ -10,7 +10,13 @@ const HeroPage = () => {
           <div className="relative mb-4">
             <div className="w-[144px] h-[33px] absolute bg-gradient-to-r from-gray-700 to-gray-300 rounded-full inset-0"></div>
             <button className="text-xl top-[1px] left-[1px] relative w-[calc(142px-1px)] h-[calc(32px-1px)] bg-black px-2  rounded-full flex flex-row items-center justify-between gap-2">
-              <span className="text-sm">My Github</span>{" "}
+              <a
+                href="https://github.com/DonFranklie"
+                target="_blank"
+                className="text-sm"
+              >
+                My Github
+              </a>{" "}
               <span>
                 <FaArrowCircleRight className="text-base" />
               </span>
