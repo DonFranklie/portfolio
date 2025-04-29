@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { HiExternalLink } from "react-icons/hi";
+import { FaFeatherAlt } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -25,6 +26,14 @@ const NavBar = () => {
               className="text-xl inline-flex gap-1"
             >
               <FaGithub className="text-white" />{" "}
+              <HiExternalLink className="justify-self-start text-xs" />
+            </a>
+            <a
+              href="https://github.com/DonFranklie"
+              target="_blank"
+              className="text-xl inline-flex gap-1"
+            >
+              <FaFeatherAlt className="text-white" /> Rant
               <HiExternalLink className="justify-self-start text-xs" />
             </a>
           </div>
