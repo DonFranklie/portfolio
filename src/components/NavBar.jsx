@@ -23,15 +23,15 @@ const NavBar = () => {
             <a
               href="https://github.com/DonFranklie"
               target="_blank"
-              className="text-xl inline-flex gap-1"
+              className="text-xl inline-flex gap-1 hover:text-emerald-400 transition-all duration-300"
             >
-              <FaGithub className="text-white" />{" "}
+              <FaGithub />{" "}
               <HiExternalLink className="justify-self-start text-xs" />
             </a>
             <a
               href="https://github.com/DonFranklie"
               target="_blank"
-              className="text-xl inline-flex gap-1 ml-4"
+              className="text-xl inline-flex gap-1 hover:text-emerald-400 transition-all duration-300"
             >
               {/* <span className="text-lg">Rant</span> */}
               <FaFeatherAlt className="justify-self-start" />
