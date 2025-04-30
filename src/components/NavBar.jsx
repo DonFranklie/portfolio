@@ -19,7 +19,7 @@ const NavBar = () => {
             <span className="hover:text-white cursor-pointer">Projects</span>
             <span className="hover:text-white cursor-pointer">Resume</span>
           </div> */}
-          <div>
+          <div className="flex flex-row gap-4 items-center">
             <a
               href="https://github.com/DonFranklie"
               target="_blank"
@@ -28,14 +28,14 @@ const NavBar = () => {
               <FaGithub className="text-white" />{" "}
               <HiExternalLink className="justify-self-start text-xs" />
             </a>
-            {/* <a
+            <a
               href="https://github.com/DonFranklie"
               target="_blank"
-              className="text-xl inline-flex gap-1"
+              className="text-sm inline-flex gap-1 ml-4"
             >
-              <FaFeatherAlt className="text-white" /> Rant
-              <HiExternalLink className="justify-self-start text-xs" />
-            </a> */}
+              <span className="text-lg">Rant</span>
+              <FaFeatherAlt className="justify-self-start text-xs" />
+            </a>
           </div>
         </div>
       </div>
