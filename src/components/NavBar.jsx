@@ -31,10 +31,10 @@ const NavBar = () => {
             <a
               href="https://github.com/DonFranklie"
               target="_blank"
-              className="text-sm inline-flex gap-1 ml-4"
+              className="text-xl inline-flex gap-1 ml-4"
             >
-              <span className="text-lg">Rant</span>
-              <FaFeatherAlt className="justify-self-start text-xs" />
+              {/* <span className="text-lg">Rant</span> */}
+              <FaFeatherAlt className="justify-self-start" />
             </a>
           </div>
         </div>
