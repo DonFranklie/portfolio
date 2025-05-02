@@ -1,5 +1,4 @@
 import React from "react";
-import { FiArrowRightCircle } from "react-icons/fi";
 import { MdOutlineArrowOutward } from "react-icons/md";
 
 const Card = ({ name, description, technologiesUsed }) => {
