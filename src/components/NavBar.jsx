@@ -6,7 +6,7 @@ import { FaFeatherAlt } from "react-icons/fa";
 const NavBar = () => {
   return (
     <>
-      <div className="w-full lg:h-[80px] md:h-[80px] lg:container lg:mx-auto lg:px-32 md:px-8 md:mx-2 sm:px-2 sm:mx-2 sm:h-fit border-b-[.5px] border-gray-500">
+      <div className="w-full lg:h-[80px] md:h-[80px] lg:container lg:mx-auto lg:px-32 md:px-8 md:mx-2 sm:px-2 sm:mx-2 sm:h-fit shadow-md fixed">
         <div className="flex items-center justify-between h-full px-8 pt-4">
           <a
             href="https://franklinmakokha.vercel.app/"
