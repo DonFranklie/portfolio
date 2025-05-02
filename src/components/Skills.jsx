@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCss3Alt, FaHtml5, FaJs, FaPhp, FaBootstrap } from "react-icons/fa6";
+import { FaCss3Alt, FaHtml5, FaJs, FaBootstrap } from "react-icons/fa6";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql, SiPhp } from "react-icons/si";
 
