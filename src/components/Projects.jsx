@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { FaCss3Alt, FaHtml5, FaJs, FaPhp, FaBootstrap } from "react-icons/fa6";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { FaBootstrap } from "react-icons/fa6";
 import { SiMysql, SiPhp } from "react-icons/si";
 
 const Projects = () => {
@@ -15,10 +14,10 @@ const Projects = () => {
 
         <div className="flex flex-row items-center justify-center gap-4 flex-wrap mt-8">
           <Card
-            name="Hotel Reservation System"
-            desc="Manage reservations, rooms and customers"
+            name="Reservation System"
+            description="Manage reservations, rooms and customers"
             // tech={`<div></div>`}
-            tech={
+            technologiesUsed={
               <div className="flex gap-4 text-3xl">
                 <SiPhp className="text-indigo-800" />
                 <SiMysql className="text-blue-800" />
@@ -27,9 +26,9 @@ const Projects = () => {
             }
           />
           <Card
-            name="Hotel Sales System"
-            desc="Manage Hotel orders, sales and inventory"
-            tech={
+            name="Sales System"
+            description="Manage orders, sales and inventory"
+            technologiesUsed={
               <div className="flex gap-4 text-3xl">
                 <SiPhp className="text-indigo-800" />
                 <SiMysql className="text-blue-800" />
