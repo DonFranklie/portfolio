@@ -12,9 +12,9 @@ const HeroPage = () => {
             <p> Franklin Makokha,</p>
             <p>a Software Developer</p>
           </div>
-          <p className="text-sm mt-3 text-gray-400">
+          {/* <p className="text-sm mt-3 text-gray-400">
             I transform ideas into scalable, impactful web solutions
-          </p>
+          </p> */}
         </div>
       </div>
     </>
